@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/add_drink.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,300;1,400&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/780d6f6934.js" crossorigin="anonymous"></script>
+
+    <title>add-drinkpage</title>
+</head>
+<body>
+    <header class="header">
+        <img src="assets/logo.png" alt="logo"width="54px" height="83px">
+        <ul class="ul">
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="add_drink.html">Add a Drink</a>
+            <a href="feedback.html">Feedback</a>
+        </ul>
+
+           
+    
+
+    </header>
+
+    <main > 
+        <img class="background"   src="assets/back1.png" alt="background">
+        <section class="container">
+            <img class="img1" src="assets/man.png" alt="man">
+            <h1 class="text"> Create a Drink </h1>
+            <form >
+                <input name="name" class="name" type="text"   placeholder="Drink name" required ><br>
+                <input name="urlImage" class="drink-img" type="url" placeholder="URL image" required  >
+                <input name="drinkIn" class="drink-In" type="text" placeholder="Drink Ingredients" required >
+                <input  name="drinkSt" class="drink-st" type="text" placeholder="Drink Steps"required  >
+                <section class="drink-ty">
+                <label>Drink type</label> 
+                <!-- <label ><input type="radio" name="hot" checked>Hot</label>
+                <label > <input type="radio" name="cold">Cold</label> -->
+
+                <input type="radio" id="hot" name="drone" value="hot" required>
+                <label for="hot" >Hot</label>
+                <input type="radio" id="cold" name="drone" value="cold" required>
+                <label for="cold"  >Cold</label>
+                
+                <input class="submit" type="submit" value="Add a Drink">
+
+        
+
+              
+
+               
+                </section>
+
+        
+            </form>
+        </section>
+
+        
+
+    </main>
+
+    <footer class="footer">
+        <div class="icons">
+        <a id="instagram" href="https://instagram.com/" ><i class="fa-brands fa-square-instagram" style="color: #000000;"></i></a>
+        <a id="facebook" href="https://www.facebook.com" ><i class="fa-brands fa-square-facebook" style="color: #000000;"></i></a>
+        <a id="github" href="https://www.github.com/" ><i class="fa-brands fa-square-github" style="color: #000000;"></i></a>
+        <a id="linkedin" href="https://www.linkedin.com" ><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a>
+        </div>    
+        
+
+
+           
+             <p class="p">
+            Copyrights © Design Test Fusion, All rights reserved
+            </p>
+
+            
+    </footer>
+    <script src="./JS/add_drink.js"></script>
+</body>
+</html>

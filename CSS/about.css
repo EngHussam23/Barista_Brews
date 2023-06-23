@@ -1,0 +1,269 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    font-family: 'Jura', sans-serif;
+}
+  .Bold{
+    font-weight: bold;
+
+  }
+.container {
+    margin-top: 90px;
+    /* margin-left: 236px;
+    margin-right: 350px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid;
+    border-color: #EBE8E1;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+    width: 950px;
+  }
+
+  .section1 {
+    background-image: url("../pic/backgroundimg.png");
+    background-position: right bottom;
+    mix-blend-mode: multiply;
+    background-size: 593px 651px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .container img {
+    width: 580px;
+    height: 626px;
+    /* margin-bottom: 200px !important; */
+    
+
+  }
+  
+  .text-container {
+    margin-left: 50px; 
+font-family: 'Jura';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+margin: 75px ;
+  }
+  html{
+    background-color:white;
+  }
+
+  .h1 {
+font-family: 'Jura';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+
+color: #36743E;
+  }
+  .h2 {
+ font-family: 'Jura';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #33713B;
+  }
+  .h3{
+    position: absolute;
+    width: 532px;
+    height: 117px;
+    left: 456px;
+    top: 950px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 71px;
+    
+    color: #5B6C61; 
+}
+body {
+    background-color: #EBE8E1;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 15px ;
+    background-image: url("../pic/backgroundimg.png");
+    background-position: right bottom;
+    mix-blend-mode: multiply;
+    background-size: 593px 651px;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.team-members-section {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team-members-section h2 {
+    margin-bottom: 100px;
+    font-size: 60px;
+    color: #36743E
+}
+
+
+.members-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.card {
+    position: relative;
+    display: inline-block;
+    margin-right: 2px;
+    margin-bottom: 1em;
+    width: 300px;
+    
+}
+
+.front,
+.back {
+    display: block;
+    width: inherit;
+    height: 300px;
+    padding: 15px;
+    border-radius: 20px;
+    transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
+    transition-duration: .5s;
+    transition-property: transform, opacity;
+}
+
+.back p {
+    font-size: '0.9125rem';
+    line-height: 160%;
+    color: #999;
+}
+
+.front {
+    transform: rotateY(0deg);
+    color: #36743E;
+
+
+}
+
+.avatar-img {
+    height: 85%;
+    width: 100%;
+}
+
+
+.name {
+    display: flex;
+    align-items: end;
+   justify-content: center;
+}
+
+.back {
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 90%;
+    transform: rotateY(-180deg);
+    background: rgb(235 232 225 / 80%);;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text-shadow {
+    font-weight: 700;
+font-size: 25px;
+}
+
+.card:hover .front {
+    transform: rotateY(180deg);
+}
+
+.card:hover .back {
+    opacity: 1;
+    transform: rotateY(0deg);
+}
+
+.name-h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+font-size: 32px;
+
+}
+.backface-icons {
+    display: flex;
+    gap: 25px;
+    align-items: end;
+    list-style: none;
+    justify-content: center;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    margin-left: 115px;
+    margin-right: 115px;
+    
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+
+}
+
+ul a{
+    color: #36743E; 
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+footer {
+    display: flex;
+    border-top: solid rgba(0, 0, 0, 0.3) 2px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.social_links {
+    display: flex;
+    gap: 15px;
+}
+
+.social_media_icons {
+    color: black;
+    font-size: 25px;
+}
+
+#p {
+    color: black;
+    font-weight: bold;
+}
