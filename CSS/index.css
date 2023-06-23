@@ -1,0 +1,194 @@
+* {
+    color: rgb(51, 112, 59);
+    font-size: 18px;
+    font-family: 'Jura', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    background-color: rgb(235, 232, 225);
+    border-radius: 25px;
+    margin: 15px;
+    padding: 15px;
+    background-image: url(../assets/coffee-branch-bean_67600-414.png);
+    background-position: right bottom;
+    mix-blend-mode: multiply;
+    background-size: 593px 651px;
+    background-repeat: no-repeat;
+}
+
+
+body::-webkit-scrollbar {
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 115px;
+    margin-right: 115px;
+}
+
+header ul {
+    display: flex;
+    gap: 40px;
+}
+
+header ul a {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    min-height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.welcome_message {
+    background-image: url(../assets/landing_page_background.png);
+    background-size: cover;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    min-height: 830px;
+}
+
+.message_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 180px;
+}
+
+.website_name {
+    font-size: 100px;
+    padding: 0px;
+    margin: 0px;
+    width: 700px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.website_caption {
+    font-size: 30px;
+    width: 700px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.coffee {
+    font-size: 40px;
+    color: rgb(51, 112, 59);
+}
+
+.drink_cards {
+    overflow: hidden;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 100px;
+}
+
+.beanImg {
+    width: 40px;
+}
+
+.drinkImage {
+    width: 200px;
+}
+
+.labelText {
+    font-size: 12px;
+}
+
+.cardTitle {
+    font-size: 20px;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 100px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.5),
+        inset 0 0 12px rgba(0, 0, 0, 0.3);
+    width: 330px;
+    height: 350px;
+}
+
+.userSuggestions {
+    overflow: hidden;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 100px;
+}
+
+.suggedtedSecTitle {
+    font-size: 28px;
+    text-decoration: underline;
+    text-align: center;
+    margin: 30px;
+}
+
+footer {
+    display: flex;
+    border-top: solid rgba(0, 0, 0, 0.3) 2px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.social_links {
+    display: flex;
+    gap: 15px;
+}
+
+.social_media_icons {
+    color: black;
+    font-size: 25px;
+}
+
+#p {
+    color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,186 @@
+*{
+    /* font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif; */
+        /* color: rgb(51, 112, 59); */
+        font-size: 18px;
+        font-family: 'Jura', sans-serif;
+    
+    
+    }
+    html {
+        background-color: white;
+    }
+    body {
+        background-color: rgb(235, 232, 225);
+        border-radius: 25px;
+        margin: 15px;
+        padding: 15px;
+    }
+    main {
+        min-height: calc(100vh - 50px);
+        display: flex;
+    }
+    .background{
+       
+        margin: 0 auto;
+        margin-top: 258px;
+        margin-left: 696px;
+        position: absolute;
+        width: 800px;
+        height: 537px;
+        opacity: 20%;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 15px;
+        margin-left: 115px;
+        margin-right: 115px;
+    }
+    .ul {
+        display: flex;
+        gap: 40px;
+    }
+    .ul a{
+        color: #36743E;
+        font-size: 18px;
+        /* font-weight: 500;
+    font-size: 20px;
+    line-height: 24px; */
+        text-decoration: none;
+    }
+    
+    
+    .container{
+    /* position: absolute; */
+    width: 948px;
+    height: 615px;
+    left: 238px;
+    position: relative;
+    /* top: 207px; */
+    
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+    }
+    
+    .img1{
+        position: absolute;
+        left: 598px;
+        top: 58px;
+    }
+    
+    
+    .text{
+        font-size: 55.2264px;
+        position: absolute;
+        left: 49px;
+        color: #36743E;
+        font-weight: bold;
+        
+    }
+    .name{
+        box-sizing: border-box;
+        width: 343px;
+        height: 57px;
+        left: 66px;
+        top: 144px;
+        background-color: #ffff;
+        border: 1.53407px solid rgba(0, 0, 0, 0.1);
+        position: absolute;
+        border-radius: 15.3407px;
+        color: gray;
+        font-family: system-ui;
+        font-weight: 100;
+        font-size: small;
+       
+    }
+    .drink-img{
+        box-sizing: border-box;
+        width: 343px;
+        height: 57px;
+        left: 66px;
+        top: 220px;
+        background-color: #ffff;
+        border: 1.53407px solid rgba(0, 0, 0, 0.1);
+        position: absolute;
+        border-radius: 15.3407px; 
+        color: gray;
+        font-family: system-ui;
+        font-weight: 100;
+        font-size: small;
+    }
+    .drink-In{
+        box-sizing: border-box;
+        width: 343px;
+        height: 75px;
+        left: 66px;
+        top: 296px;
+        background-color: #ffff;
+        border: 1.53407px solid rgba(0, 0, 0, 0.1);
+        position: absolute;
+        border-radius: 15.3407px; 
+        color: gray;
+        font-family: system-ui;
+        font-weight: 100;
+        font-size: small;
+    
+    }
+    
+    .drink-st{
+        box-sizing: border-box;
+        width: 343px;
+        height: 75px;
+        left: 66px;
+        top: 390px;
+        background-color: #ffff;
+        border: 1.53407px solid rgba(0, 0, 0, 0.1);
+        position: absolute;
+        border-radius: 15.3407px; 
+        color: gray;
+        font-family: system-ui;
+        font-weight: 100;
+        font-size: small;
+    }
+    
+    .drink-ty{
+        position: absolute;
+        top: 480px;
+        left: 76px;
+    }
+    
+    .submit{
+        position: absolute;
+        width: 263.8px;
+        height: 61.04px;
+        left: 20px;
+        top: 46px;
+        background: #5B6C61;
+        border-radius: 23.011px;
+        color: white;
+        font-size: large;
+        border-color: white;
+    }
+    .footer{
+        
+        display: flex;
+        padding-bottom: 15px;
+        text-align: right;
+        border-top: solid  rgba(0, 0, 0, 0.3) 2px;
+        margin: 0 115px;
+        justify-content: space-between;
+        padding: 15px;
+        margin-top: 60px;
+    }
+    .icons {
+        display: flex;
+        justify-content: start;
+        /* font-size: x-large; */
+        gap: 10px;
+    }
+    
+    .p {
+        margin: 0;
+    }
